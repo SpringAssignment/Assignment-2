@@ -1,0 +1,19 @@
+# Android-specific
+.gradle/
+.idea/
+build/
+local.properties
+*.iml
+
+# IntelliJ
+*.iws
+*.ipr
+*.bak
+*.swp
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
