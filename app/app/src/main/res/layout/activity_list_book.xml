@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:inputType = "text"/>
+
+        <EditText
+            android:id="@+id/etAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Author"
+             android:inputType = "text"/>
+
+        <EditText
+            android:id="@+id/etIsbn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ISBN"
+             android:inputType ="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:id="@+id/etSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject"
+            />
+
+        <EditText
+            android:id="@+id/etEdition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edition"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/etSellerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/etBankDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bank Details"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Listing"/>
+    </LinearLayout>
+</ScrollView>
